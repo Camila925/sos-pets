@@ -3,10 +3,6 @@
 Um site feito com muito carinho para apoiar o resgate, divulgação e adoção de animais de rua, visualizar animais cadastrados e acessar uma área de adoção com cards demonstrativos.  
 Criado com HTML + CSS + JavaScript, usando um estilo soft pastel. 
 
-## Acesse o site
-Clique aqui para abrir:  
-**https://github.com/Camila925/sos-pets**
-
 ## Estrutura do Projeto
 
 ├── index.html
@@ -31,6 +27,8 @@ Clique aqui para abrir:
 1. Baixe ou clone o repositório:
 
 git clone https://github.com/Camila925/sos-pets
+
+2. ou Clique aqui para abrir o SOS Pets
 
 ## Objetivo do projeto
 
