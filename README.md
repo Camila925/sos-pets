@@ -28,7 +28,7 @@ Criado com HTML + CSS + JavaScript, usando um estilo soft pastel.
 
 git clone https://github.com/Camila925/sos-pets
 
-2. ou Clique aqui para abrir o SOS Pets
+2. ou [Clique aqui para abrir o SOS Pets](https://camila925.github.io/sos-pets/)
 
 ## Objetivo do projeto
 
