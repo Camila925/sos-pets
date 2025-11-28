@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -153,4 +154,161 @@ footer {
     margin-top: 40px;
     background: #F4E0E8;
     color: #444;
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #FDF6F8;
+    font-family: 'Inter', sans-serif;
+    color: #444;
+}
+
+header {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.6);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    border-bottom: 1px solid #f2dce3;
+}
+
+nav {
+    max-width: 1100px;
+    margin: auto;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    color: #EFA5C2;
+    font-weight: 600;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #444;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #EFA5C2;
+}
+
+.hero {
+    padding: 180px 20px 120px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-family: 'Poppins';
+    font-size: 34px;
+    color: #EFA5C2;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.section-title {
+    font-family: 'Poppins';
+    font-size: 28px;
+    text-align: center;
+    color: #EFA5C2;
+    margin-bottom: 25px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.06);
+    margin-bottom: 20px;
+}
+
+.form-card input,
+.form-card textarea {
+    width: 100%;
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #e3cbd5;
+}
+
+.form-card button {
+    margin-top: 10px;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background: #EFA5C2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-card button:hover {
+    background: #e28fad;
+}
+
+.lista {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.pet-card img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.adotar-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #B6D8F2;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.adotar-btn:hover {
+    background: #9ac7e8;
+}
+
+.contato-card p {
+    margin: 6px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background: #F4E0E8;
+    color: #444;
+>>>>>>> 545e30b3a1c96d5b40a25d5aa9bab8aa89793a04
 }
